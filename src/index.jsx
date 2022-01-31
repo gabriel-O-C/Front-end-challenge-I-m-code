@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { ThemeProvider } from 'styled-components';
+import AppRoutes from './routes/AppRoutes';
+import theme from './styles/theme';
+import Globalstyle from './styles/global.styles';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <Globalstyle />
+      <AppRoutes />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 );
