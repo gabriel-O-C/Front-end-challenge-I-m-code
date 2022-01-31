@@ -1,11 +1,11 @@
 import React from 'react';
-import { Header, HeroSection } from './components';
+import { Header, Banner } from './components';
 
 function Home() {
   return (
     <>
       <Header />
-      <HeroSection />
+      <Banner />
     </>
   );
 }

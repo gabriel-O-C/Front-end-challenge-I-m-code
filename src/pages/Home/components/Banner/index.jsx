@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './styles';
 import Heading from '../Heading';
 
-function HeroSection() {
+function Banner() {
   return (
     <S.Main>
       <S.Banner>
@@ -24,4 +24,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Banner;
