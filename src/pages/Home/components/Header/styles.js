@@ -21,6 +21,7 @@ export const MenuItem = styled.ul`
     margin-right: 10px;
     margin-left: 10px;
     border-bottom: 1px solid ${(props) => props.theme.colors.white};
+    cursor: pointer;
 
       :hover{
       border-bottom: 1px solid ${(props) => props.theme.colors.blue};
