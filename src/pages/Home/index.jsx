@@ -1,7 +1,13 @@
 import React from 'react';
+import { Header, HeroSection } from './components';
 
 function Home() {
-  return <h1>oi</h1>;
+  return (
+    <>
+      <Header />
+      <HeroSection />
+    </>
+  );
 }
 
 export default Home;
