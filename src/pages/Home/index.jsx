@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Header, Banner, HeroSection, Heading, Slider,
+  Header, Banner, HeroSection, Heading, Slider, ServicesProvided,
 } from './components';
 import * as S from './styles';
 
@@ -17,6 +17,10 @@ function Home() {
           um único lugar
         </Heading>
         <Slider />
+      </S.Container>
+      <S.Container>
+        <Heading>Projeto</Heading>
+        <ServicesProvided />
       </S.Container>
     </>
   );
