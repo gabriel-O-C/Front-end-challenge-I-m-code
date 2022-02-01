@@ -1,0 +1,13 @@
+.slider {
+  background-color: #7bcccc;
+  width: 100vw;
+  height: 100vh;
+}
+
+.awssld__content {
+  background-color: #7bcccc;
+}
+
+.awssld__timer {
+  --timer-background-color: #7bcccc !important;
+}
